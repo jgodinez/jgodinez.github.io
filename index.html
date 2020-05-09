@@ -4,11 +4,11 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
+    {% assign author = site.authors[post.author] %}
     <article class="post">
-      {% assign author = site.authors[post.author] %}
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      
-      <span class="post-name"><a target="_blank" href="{{ author.web }}">- {{ author.display_name }}</a></span><br/>
+     
+      <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
       
       <span class="post-date">{{ post.date | date_to_string }}</span>
 
