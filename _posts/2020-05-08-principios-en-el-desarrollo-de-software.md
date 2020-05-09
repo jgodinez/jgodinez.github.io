@@ -1,8 +1,7 @@
 ---
-published: true
+layout: post
+title: PRINCIPIOS EN EL DESARROLLO DE SOFTWARE
 ---
-## PRINCIPIOS EN EL DESARROLLO DE SOFTWARE
-
 
 DRY (Don't repeat yourself)
 
