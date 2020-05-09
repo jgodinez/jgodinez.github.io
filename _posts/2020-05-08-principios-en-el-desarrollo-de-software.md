@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PRINCIPIOS EN EL DESARROLLO DE SOFTWARE
+author: juan
 ---
 
 DRY (Don't repeat yourself)
