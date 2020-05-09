@@ -7,11 +7,13 @@ layout: default
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      
+      <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
+      <span class="post-date">{{ post.date | date_to_string }}</span>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
