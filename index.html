@@ -3,12 +3,17 @@ layout: default
 ---
 
 <div class="posts">
+  
+  <!-- Post -->
+        {% assign author = site.authors[page.author] %}
+  
   {% for post in site.posts %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      
+      {% if page.author %}
       <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
+      {% endif %}
       <span class="post-date">{{ post.date | date_to_string }}</span>
 
       <div class="entry">
