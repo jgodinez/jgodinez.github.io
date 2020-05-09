@@ -283,6 +283,17 @@ footer {
   text-align: center;
 }
 
+span.post-date {
+    color: rgba(0,0,0,.44);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+span.post-name a {
+    color: rgba(0,0,0,.8);
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
