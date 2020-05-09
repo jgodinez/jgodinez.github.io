@@ -14,7 +14,7 @@ En trabajos colaborativos es común encontrar código duplicado, propenso a erro
 #### Solución
 
 Extraer y encapsular código, de esta forma el cambio se centraliza en un solo punto
-
+<!--more-->
 * * *
 
 
