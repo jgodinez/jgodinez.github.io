@@ -85,5 +85,15 @@ exclude:
   - README.md
   - CNAME
   
-
+# Authors
+authors:
+  juan:
+    name: Juan Godinez Vera
+    display_name: Juan Godinez Vera
+    image: /assets/images/profile.png
+    email: juangodinezvera@gmail.com
+    web:
+    twitter: j_godinez
+    description: Android developer...
+    
 excerpt_separator: <!--more-->
