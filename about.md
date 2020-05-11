@@ -10,7 +10,7 @@ Android developer, Passionate about software Engineering, Kotlin fanboy...
 
 If you want to contact me 
 
-[send me a DM to j_godinez](https://twitter.com/j_godinez)
+[send me a DM to @j_godinez](https://twitter.com/j_godinez)
 
 or 
 
