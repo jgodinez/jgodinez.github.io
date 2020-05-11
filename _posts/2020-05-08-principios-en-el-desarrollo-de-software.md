@@ -4,6 +4,12 @@ title: PRINCIPIOS EN EL DESARROLLO DE SOFTWARE
 author: juan
 ---
 
+En los últimos años he visto diversos lenguajes de programación aparecer y otros tantos actualizarse, la industria cambia de forma constante, por lo cual durante un tiempo me enfoqué en aprender lo nuevo de "X" lenguaje y dejé de lado "buenas prácticas" del desarrollo de software, pero sentía que ese proceso no estaba bien, que la calidad de mi código no era buena, así que comencé a estudiar sobre **principios en el desarrollo de software** y aplicarlos en mis desarrollos con la finalidad de comprenderlos mejor y poder compartir mi aprendizaje.
+
+<!--more-->
+
+Hoy puedo decir con base en mi experiencia que escribir código de calidad puede ser complejo, pero no por ello debemos dejar de lado las buenas prácticas, así que de forma personal y resumida les comparto un poco de lo aprendido.
+
 DRY (Don't repeat yourself)
 
 No escribir código duplicado. 
@@ -15,7 +21,7 @@ En trabajos colaborativos es común encontrar código duplicado, propenso a erro
 #### Solución
 
 Extraer y encapsular código, de esta forma el cambio se centraliza en un solo punto
-<!--more-->
+
 * * *
 
 
