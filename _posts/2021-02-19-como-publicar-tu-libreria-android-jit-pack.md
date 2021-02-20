@@ -69,3 +69,5 @@ configurations.all {
     resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 ``` 
+
+Espero te haya sido de utilidad esta entrada y ya sabes, la mejor forma de seguir aprendiendo es compartiendo el conocimiento.
