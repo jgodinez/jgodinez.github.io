@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 layout: post
 title: ¿CÓMO PUBLICAR TU LIBRERÍA DE ANDROID CON JITPACK?
 author: juan
